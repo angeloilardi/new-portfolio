@@ -9,6 +9,6 @@ from {
     
   }
   to{
-    transform: translate(100%, 50px) scale(0.3) rotate(10deg);
+    transform: translate(100%, 0) scale(0.3) rotate(10deg);
   }
 }
