@@ -7,7 +7,7 @@ export default function Projects() {
       <>
         <Navbar></Navbar>
         <div className="bg-blue-200 min-h-screen py-12">
-          <div className="sm:flex sm:justify-center sm:flex-wrap sm:align-middle">
+          <div className="sm:flex sm:justify-center sm:flex-wrap sm:flex-col sm:align-middle">
             {projects.map((project) => {
               return (
                 <ProjectCard
