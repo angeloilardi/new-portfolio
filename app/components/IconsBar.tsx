@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import './Iconsbar.css';
 
-export default function IconsBar() {
+export default function IconsBar() { 
     return (
-      <div className="flex justify-center dark:text-black" id="icon-bar">
+      <div
+        id="icon-bar"
+        className= "flex justify-center dark:text-black absolute top-0"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

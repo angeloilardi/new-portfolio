@@ -1,0 +1,13 @@
+#fish {
+    animation: swim 10s linear backwards infinite;
+    will-change: transform;
+}
+
+@keyframes swim {
+    from {
+        transform: translate(0, 0) rotate(-10deg);
+    }
+    to {
+transform: translate(100%, 0);
+    }
+}
