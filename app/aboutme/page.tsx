@@ -11,34 +11,39 @@ export default function AboutMe() {
         <div className="flex flex-col-reverse md:flex-row align-middle">
           <div className="presentation basis-1/2 shrink-0 flex-row p-16">
             <p className="mb-3">
-              Hey, I'm Angelo Ilardi, a Front-End Developer from London (UK).
+              Hey, I&apos;m Angelo Ilardi, a Front-End Developer from London
+              (UK).
             </p>
             <p className="mb-3">
               My biggest drive is my passion for creating eye-catching designs
               combined with a great usability.
             </p>
             <p className="mb-3">
-              I love to be an early adopter and I'm never scared to try new
+              I love to be an early adopter and I&apos;m never scared to try new
               things out. As a matter of fact, my approach to coding started as
               a game (I built a web page as a tribute to my favourite band).
             </p>
             <p className="mb-3">
-              I'm a big fan of live music, art, tennis and Korean food.
+              I&apos;m a big fan of live music, art, tennis and Korean food.
             </p>
             <p className="mb-3">
               If you want to want to find out more about me, feel free to hit me
-              up. All topics are wlcomed :)
+              up. All topics are welcomed!
             </p>
             <p>Or you can dowload my CV for any work-related queries.</p>
           </div>
           <div className="profile-pic basis-1/2 flex align-middle">
-              <Image
-                src="/profile.jpeg"
-                width={300}
-                height={300}
-                alt="Picture of the author"
-                style={{ transform: "rotate(3deg)", borderRadius: "5px", margin:"auto" }}
-              />
+            <Image
+              src="/profile.jpeg"
+              width={300}
+              height={300}
+              alt="Picture of the author"
+              style={{
+                transform: "rotate(3deg)",
+                borderRadius: "5px",
+                margin: "auto",
+              }}
+            />
           </div>
         </div>
         <div className="stack p-20">
@@ -46,7 +51,11 @@ export default function AboutMe() {
           <div className="flex flex-row flex-wrap">
             {icons.map((icon) => {
               return (
-                <TechStackIcon url={icon.url} name={icon.name} key={icon.name}></TechStackIcon>
+                <TechStackIcon
+                  url={icon.url}
+                  name={icon.name}
+                  key={icon.name}
+                ></TechStackIcon>
               );
             })}
           </div>

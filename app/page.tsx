@@ -14,9 +14,11 @@ export default function Home() {
         <div className="min-h-screen bg-blue-100 align-middle">
           <div className="flex w-lg pt-16 flex-col md:flex md:flex-row-reverse items-center justify-around p-12">
             <div className="align-center px-16 mt-16">
-              <h1 className="text-black text-5xl">HEY, I'M ANGELO ILARDI</h1>
+              <h1 className="text-black text-5xl">
+                HEY, I&apos;M ANGELO ILARDI
+              </h1>
               <p className="mt-6 text-black text-2xl">
-                I'm a
+                I&apos;m a
                 <RoughNotation
                   show={true}
                   type="highlight"
@@ -28,8 +30,7 @@ export default function Home() {
                 >
                   <span className="text-2xl"> Front-End Developer</span>
                 </RoughNotation>
-                striving to build stunning Web creations that people love
-                to use
+                striving to build stunning Web creations that people love to use
               </p>
             </div>
             <div className="relative shrink-0">
