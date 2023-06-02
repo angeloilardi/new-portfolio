@@ -46,7 +46,7 @@ export default function AboutMe() {
           <div className="flex flex-row flex-wrap">
             {icons.map((icon) => {
               return (
-                <TechStackIcon url={icon.url} name={icon.name}></TechStackIcon>
+                <TechStackIcon url={icon.url} name={icon.name} key={icon.name}></TechStackIcon>
               );
             })}
           </div>

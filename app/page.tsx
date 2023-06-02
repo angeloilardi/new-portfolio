@@ -16,7 +16,7 @@ export default function Home() {
             <div className="align-center px-16 mt-16">
               <h1 className="text-black text-5xl">HEY, I'M ANGELO ILARDI</h1>
               <p className="mt-6 text-black text-2xl">
-                I'm a&nbsp;
+                I'm a
                 <RoughNotation
                   show={true}
                   type="highlight"
@@ -26,14 +26,14 @@ export default function Home() {
                   color={"rgb(251 207 232)"}
                   strokeWidth={3}
                 >
-                  <span className="text-2xl">Front-End Developer</span>
+                  <span className="text-2xl"> Front-End Developer</span>
                 </RoughNotation>
-                &nbsp;striving to build stunning Web creations that people love
+                striving to build stunning Web creations that people love
                 to use
               </p>
             </div>
             <div className="relative shrink-0">
-              <img src="/cat.png" alt="" width={350} height={300} />
+              <Image src="/cat.png" alt="" width={350} height={300} />
               <img
                 id="fish"
                 width="24"
