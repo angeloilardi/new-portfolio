@@ -34,14 +34,18 @@ export default function Home() {
               </p>
             </div>
             <div className="relative shrink-0">
-              <Image src="/cat.png" alt="" width={350} height={300} />
+              <img
+                src="/cat.png"
+                alt=""
+                width={400}
+                height={300}
+                className="min-w-full"
+              />
               <img
                 id="fish"
-                width="24"
-                height="24"
                 src="https://img.icons8.com/ios-glyphs/30/fish.png"
                 alt="fish"
-                className="absolute top-32 right-28 rotate-12"
+                className="absolute top-2/4 right-1/4 rotate-12 w-5 h-5"
               />
             </div>
           </div>
