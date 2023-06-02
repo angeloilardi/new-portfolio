@@ -1,4 +1,4 @@
-export default function ProjectCard({img, url, name, description}) {
+export default function ProjectCard({img, url, name, description}: {img:string, url:string, name:string, description:string}) {
     return (
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse md:max-w-3xl md:min-h-fit md:w-8/12">
         <a href={url} className="basis-1/2 shrink-1 max-w-sm">
