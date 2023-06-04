@@ -1,8 +1,6 @@
 
 "use client";
 import Navbar from './components/Navbar';
-import Image from 'next/image';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 import './page.css'
 

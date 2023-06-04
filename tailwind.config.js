@@ -16,6 +16,7 @@ module.exports = {
         '60': '60%'
       }
     },
+    
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
