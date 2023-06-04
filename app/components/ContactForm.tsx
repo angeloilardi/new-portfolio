@@ -5,7 +5,7 @@ export default function Form() {
           <h2 className="text-2xl font-bold">Get in touch</h2>
           <p className="text-gray-700">
             For any inquiries about my work or if you think I might be a good
-            fit for a role you're hiring for
+            fit for a role you&apos;re hiring for
           </p>
           <div className="mt-8 max-w-lg">
             <div className="grid grid-cols-1 gap-6">
