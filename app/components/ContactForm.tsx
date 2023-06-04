@@ -1,3 +1,5 @@
+import Script from 'next/script';
+
 export default function Form() {
     return (
       <div className="mx-auto max-w-xl px-5">
@@ -58,8 +60,15 @@ export default function Form() {
               </label>
               <div className="block"></div>
             </div>
+            <p>
+              You can also email me <i className="fa-regular fa-envelope"></i>
+            </p>
+            <p>
+              or message me via <i className="fa-brands fa-linkedin"></i>
+            </p>
           </div>
         </div>
+        <Script src="https://kit.fontawesome.com/76d4d94d08.js" />
       </div>
     );
 }

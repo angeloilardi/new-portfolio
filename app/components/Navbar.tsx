@@ -34,7 +34,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <a className="text-black" href="/">
+                  <a className="logo" href="/">
                     ANGELO ILARDI
                   </a>
                 </div>

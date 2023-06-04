@@ -38,3 +38,12 @@ transform: translate(60%, 0) rotate(-6deg);
   }
 };
 
+.logo {
+  color: rgb(255, 255, 255);
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
