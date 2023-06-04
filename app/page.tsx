@@ -18,18 +18,8 @@ export default function Home() {
                 HEY, I&apos;M ANGELO ILARDI
               </h1>
               <p className="mt-6 text-black text-2xl">
-                I&apos;m a
-                <RoughNotation
-                  show={true}
-                  type="highlight"
-                  multiline={true}
-                  padding={[1, 0]}
-                  iterations={1}
-                  color={"rgb(251 207 232)"}
-                  strokeWidth={3}
-                >
-                  <span className="text-2xl"> Front-End Developer</span>
-                </RoughNotation>
+                I&apos;m a{" "}
+                <span className="bg-pink-200">Front-End Developer </span>
                 striving to build stunning Web creations that people love to use
               </p>
             </div>
