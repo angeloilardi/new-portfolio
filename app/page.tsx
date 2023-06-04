@@ -12,7 +12,7 @@ export default function Home() {
       <>
         <Navbar></Navbar>
         <div className="min-h-screen bg-blue-100 align-middle">
-          <div className="flex w-lg pt-16 flex-col md:flex md:flex-row-reverse items-center justify-around p-12">
+          <div className="flex w-lg pt-16 flex-col-reverse md:flex md:flex-row-reverse items-center justify-around px-12">
             <div className="align-center px-16 mt-16">
               <h1 className="text-black text-5xl">
                 HEY, I&apos;M ANGELO ILARDI
@@ -36,7 +36,7 @@ export default function Home() {
             <div className="relative shrink-0">
               <img
                 src="/cat.png"
-                alt=""
+                alt="cat staring at a laptop"
                 width={400}
                 height={300}
                 className="min-w-full"
@@ -44,8 +44,8 @@ export default function Home() {
               <img
                 id="fish"
                 src="https://img.icons8.com/ios-glyphs/30/fish.png"
-                alt="fish"
-                className="absolute top-2/4 right-1/4 rotate-12 w-5 h-5"
+                alt="fish swimming inside the laptop screen"
+                className="absolute top-2/4 right-1/4 rotate-12 w-5 h-5 max-w-full"
               />
             </div>
           </div>

@@ -15,9 +15,17 @@ transform: translate(100%, 10px) rotate(40deg);
     }
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
   #fish {
-    top: 80px;
-    right: 66px;
+    width: 10px;
+    height: 10px;
   }
-} */
+}
+
+@media only screen and (max-width: 350px) {
+  #fish {
+    width: 15px;
+    height: 15px;
+  }
+};
+

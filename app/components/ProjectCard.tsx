@@ -1,6 +1,6 @@
 export default function ProjectCard({img, url, name, description}: {img:string, url:string, name:string, description:string}) {
     return (
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse md:max-w-3xl md:min-h-fit md:w-8/12">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-8/12 md:max-w-3xl">
         <a href={url} className="basis-1/2 shrink-1 max-w-sm">
           <img
             className="rounded-t-lg min-h-60 object-cover"
@@ -8,7 +8,7 @@ export default function ProjectCard({img, url, name, description}: {img:string, 
             alt=""
           />
         </a>
-        <div className="p-5 flex flex-col basis-1/2 shrink-1 max-w-sm">
+        <div className="p-5 flex flex-col basis-1/2 shrink-1 max-w-sm justify-center">
           <a href={url}>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {name.toUpperCase()}
