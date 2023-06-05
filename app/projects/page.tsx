@@ -8,7 +8,7 @@ export default function Projects() {
       <>
         <Navbar></Navbar>
         <div className="bg-blue-200 min-h-screen py-12">
-          <h1 className="text-center mb-8 outline-text text-blue-200 text-5xl">Projects</h1>
+          <h1 className="text-center mb-8 outline-text text-blue-200 text-5xl">PROJECTS</h1>
           <div className="sm:flex sm:justify-center sm:flex-wrap sm:flex-col sm:align-middle mx-4">
             {projects.map((project) => {
               return (

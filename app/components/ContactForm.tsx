@@ -4,7 +4,9 @@ export default function Form() {
     return (
       <div className="mx-auto max-w-xl px-5">
         <div className="py-12">
-          <h2 className="text-2xl font-bold">Get in touch</h2>
+          <h2 className="text-4xl outline-text text-blue-200 mb-6">
+            GET IN TOUCH
+          </h2>
           <p className="text-gray-700">
             For any inquiries about my work or if you think I might be a good
             fit for a role you&apos;re hiring for
@@ -61,11 +63,10 @@ export default function Form() {
               <div className="block"></div>
             </div>
             <p>
-              You can also email me <i className="fa-regular fa-envelope"></i>
-            </p>
-            <p>
+              You can also email me <i className="fa-regular fa-envelope"></i>{" "}
               or message me via <i className="fa-brands fa-linkedin"></i>
             </p>
+            
           </div>
         </div>
         <Script src="https://kit.fontawesome.com/76d4d94d08.js" />
