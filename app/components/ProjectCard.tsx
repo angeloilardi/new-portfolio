@@ -25,7 +25,7 @@ export default function ProjectCard({
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {description}
         </p>
-        <div className="my-auto">
+        <div className="mt-auto mb-2">
           <a
             href={url}
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-400 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -45,10 +45,18 @@ export default function ProjectCard({
               ></path>
             </svg>
           </a>
-          {/* <a
-            href={url}
+        </div>
+        <div className="">
+          <a
+            href={gh}
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-400 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >View repository</a> */}
+          >
+            View repository{" "}
+            <i
+              className="fa-brands fa-square-github ml-3 fa-xl"
+              style={{ color: "#fcfcfc" }}
+            ></i>
+          </a>
         </div>
       </div>
     </div>
