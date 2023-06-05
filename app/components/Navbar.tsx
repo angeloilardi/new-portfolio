@@ -4,18 +4,22 @@ import { Disclosure, Transition} from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import './../globals.css'
+import { usePathname } from "next/navigation";
 
 const navigation = [
-  { name: "Projects", href: "/projects", current: false },
+  { name: "Projects", href: "/projects", current: true },
   { name: "About me", href: "/aboutme", current: false },
   { name: "Contacts", href: "/contacts", current: false },
 ];
 
-function classNames(...classes:string[]) {
+function classNames(...classes: string[]) {
+  
+
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
+  const pathname = usePathname();
   return (
     <Disclosure as="nav" className="bg-pink-200">
       {({ open }) => (
@@ -46,7 +50,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
+                          pathname === item.href
                             ? "bg-gray-900 text-white"
                             : "text-black hover:bg-gray-700 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
@@ -77,7 +81,7 @@ export default function Navbar() {
                     as="a"
                     href={item.href}
                     className={classNames(
-                      item.current
+                      pathname === item.href
                         ? "bg-gray-900 text-white"
                         : "text-black hover:bg-gray-700 hover:text-white",
                       "block rounded-md px-3 py-2 text-base font-medium"
