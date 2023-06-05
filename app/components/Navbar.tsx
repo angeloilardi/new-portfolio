@@ -3,6 +3,7 @@
 import { Disclosure, Transition} from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import './../globals.css'
 
 const navigation = [
   { name: "Projects", href: "/projects", current: false },
@@ -34,7 +35,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <a className="logo" href="/">
+                  <a className="outline-text text-pink-200 text-4xl" href="/">
                     ANGELO ILARDI
                   </a>
                 </div>
