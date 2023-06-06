@@ -2,8 +2,6 @@
 "use client";
 import Navbar from './components/Navbar';
 
-import './page.css'
-
 export default function Home() {
     
     return (

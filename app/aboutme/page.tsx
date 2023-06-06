@@ -11,7 +11,9 @@ export default function AboutMe() {
       <div className="bg-blue-200 min-h-screen py-12">
         <div className="flex flex-col-reverse md:flex-row align-middle">
           <div className="presentation basis-1/2 shrink-0 flex-row p-16">
-            <h1 className="outline-text text-blue-200 mb-6 text-4xl">ABOUT ME</h1>
+            <h1 className="outline-text text-blue-200 mb-6 text-4xl">
+              ABOUT ME
+            </h1>
             <p className="mb-3">
               Hey, I&apos;m Angelo Ilardi, a Front-End Developer from London
               (UK).
@@ -29,10 +31,19 @@ export default function AboutMe() {
               I&apos;m a big fan of live music, art, tennis and Korean food.
             </p>
             <p className="mb-3">
-              If you want to want to find out more about me, feel free to hit me
+              If you have you would like to talk about, feel free to hit me
               up. All topics are welcomed!
             </p>
-            <p>Or you can dowload my CV for any work-related queries.</p>
+            <p>
+              Or you can{" "}
+              <a
+                href="https://drive.google.com/file/d/1W6Avmv6KtusmxPkqF17dXLk4qUkKBjTP/view?usp=sharing"
+                target="_blank"
+              >
+                <u>dowload my CV</u>
+              </a>{" "}
+              for any work-related queries.
+            </p>
           </div>
           <div className="profile-pic basis-1/2 flex align-middle">
             <Image
@@ -49,7 +60,9 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="stack p-20">
-          <h1 className="text-center pb-8 outline-text text-white text-2xl">MY TECH STACK</h1>
+          <h1 className="text-center pb-8 outline-text text-white text-2xl">
+            MY TECH STACK
+          </h1>
           <div className="flex flex-row flex-wrap">
             {icons.map((icon) => {
               return (
