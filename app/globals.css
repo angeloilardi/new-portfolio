@@ -33,3 +33,58 @@ body {
     -1px 1px 0 #000,
      1px 1px 0 #000;
 } 
+
+#fish {
+  animation: swim 15s linear backwards infinite;
+  will-change: transform;
+}
+
+@media only screen and (max-width: 300px) {
+  #fish {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #fish {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@keyframes swim {
+  0% {
+    transform: translate(-100%, 0) rotate(-3deg);
+  }
+  10% {
+    transform: translate(-80%, -20% rotate(0deg));
+  }
+  20% {
+    transform: translate(-60%, 0) rotate(-3deg);
+  }
+  30% {
+    transform: translate(-40%, -20%) rotate(0deg);
+  }
+  40% {
+    transform: translate(-20%, 0) rotate(-3deg);
+  }
+  50% {
+    transform: translate(0, -20%) rotate(0deg);
+  }
+  60% {
+    transform: translate(20%, 0) rotate(-3deg);
+  }
+  70% {
+    transform: translate(40%, -20%) rotate(0deg);
+  }
+  80% {
+    transform: translate(60%, 0) rotate(-3deg);
+  }
+  90% {
+    transform: translate(80%, -20%) rotate(0deg);
+  }
+  100% {
+    transform: translate(100%, 0) rotate(-3deg);
+  }
+}
