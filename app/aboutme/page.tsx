@@ -25,13 +25,13 @@ export default function AboutMe() {
             <p className="mb-3">
               I love to be an early adopter and I&apos;m never scared to try new
               things out. As a matter of fact, my approach to coding started as
-              a game (I built a web page as a tribute to my favourite band).
+              a game (I built a web page as a tribute to my favourite band just for fun).
             </p>
             <p className="mb-3">
               I&apos;m a big fan of live music, art, tennis and Korean food.
             </p>
             <p className="mb-3">
-              If you have you would like to talk about, feel free to hit me
+              If you're a fellow developer and you have you would like to talk about, feel free to hit me
               up. All topics are welcomed!
             </p>
             <p>
@@ -42,7 +42,7 @@ export default function AboutMe() {
               >
                 <u>dowload my CV</u>
               </a>{" "}
-              for any work-related queries.
+              if you are a looking for a developer to join your team.
             </p>
           </div>
           <div className="profile-pic basis-1/2 flex align-middle">
@@ -63,7 +63,7 @@ export default function AboutMe() {
           <h1 className="text-center pb-8 outline-text text-white text-2xl">
             MY TECH STACK
           </h1>
-          <div className="flex flex-row flex-wrap">
+          <div className="flex flex-row flex-wrap justify-center">
             {icons.map((icon) => {
               return (
                 <TechStackIcon

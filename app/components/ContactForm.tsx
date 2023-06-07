@@ -68,7 +68,7 @@ export default function Form() {
               <i className="fa-regular fa-envelope fa-lg"></i>
             </a>{" "}
             or message me via{" "}
-            <a href="https://www.linkedin.com/in/angelo-ilardi/">
+            <a href="https://www.linkedin.com/in/angelo-ilardi/" target="_blank">
               <i className="fa-brands fa-linkedin fa-lg"></i>
             </a>
           </p>
