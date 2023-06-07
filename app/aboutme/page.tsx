@@ -25,14 +25,15 @@ export default function AboutMe() {
             <p className="mb-3">
               I love to be an early adopter and I&apos;m never scared to try new
               things out. As a matter of fact, my approach to coding started as
-              a game (I built a web page as a tribute to my favourite band just for fun).
+              a game (I built a web page as a tribute to my favourite band just
+              for fun).
             </p>
             <p className="mb-3">
               I&apos;m a big fan of live music, art, tennis and Korean food.
             </p>
             <p className="mb-3">
-              If you're a fellow developer and you have you would like to talk about, feel free to hit me
-              up. All topics are welcomed!
+              If you are a fellow developer and you have a project you would like to
+              talk about, feel free to hit me up. All topics are welcomed!
             </p>
             <p>
               Or you can{" "}
@@ -42,7 +43,7 @@ export default function AboutMe() {
               >
                 <u>dowload my CV</u>
               </a>{" "}
-              if you are a looking for a developer to join your team.
+              if you are a looking for an enthusiastic developer to join your team.
             </p>
           </div>
           <div className="profile-pic basis-1/2 flex align-middle">

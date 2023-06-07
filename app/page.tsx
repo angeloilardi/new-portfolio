@@ -19,7 +19,7 @@ export default function Home() {
                 striving to build stunning Web creations that people love to use
               </h2>
               <h3 className='text-lg'>
-                Let's connect{" "}
+                Let&apos;s connect{" "}
                 <span>
                   <a href="https://github.com/angeloilardi" target="_blank">
                     <i className="fa-brands fa-github fa-xl m-3"></i>
