@@ -14,7 +14,7 @@ export default function Form() {
         <div className="mt-8 max-w-lg">
           <div className="grid grid-cols-1 gap-6">
             <form
-              action="https://formsubmit.co/angeloilardi.dev@gmail.com"
+              action="https://formsubmit.co/2b5a0c554cbe020fae0c799111bac22a"
               method="POST"
             >
               <label className="block">
@@ -67,7 +67,12 @@ export default function Form() {
                   rows={3}
                 ></textarea>
               </label>
-              <button className="rounded-full bg-black text-white p-2 mt-3" type="submit">Send</button>
+              <button
+                className="rounded-full bg-black text-white p-2 mt-3"
+                type="submit"
+              >
+                Send
+              </button>
             </form>
             <div className="block"></div>
           </div>

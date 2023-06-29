@@ -60,7 +60,7 @@ export default function AboutMe() {
             />
           </div>
         </div>
-        <div className="stack p-20">
+        <div className="stack ">
           <h1 className="text-center pb-8 outline-text text-white text-2xl">
             MY TECH STACK
           </h1>
