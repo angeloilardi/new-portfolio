@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import TechStackIcon from "../components/TechStack";
 import icons from "./../utils/stack.json";
 import Image from "next/image";
@@ -7,7 +6,6 @@ import './../globals.css'
 export default function AboutMe() {
   return (
     <>
-      <Navbar></Navbar>
       <div className="bg-blue-200 min-h-screen py-12">
         <div className="flex flex-col-reverse md:flex-row align-middle">
           <div className="presentation basis-1/2 shrink-0 flex-row p-16 text-black">

@@ -1,12 +1,10 @@
 
 "use client";
-import Navbar from './components/Navbar';
 
 export default function Home() {
     
     return (
       <>
-        <Navbar></Navbar>
         <div className="min-h-screen bg-blue-100 align-middle">
           <div className="flex w-lg sm:pt-16 flex-col-reverse md:flex md:flex-row-reverse items-center justify-around px-12">
             <div className="align-center px-16 mt-16">
