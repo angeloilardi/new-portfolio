@@ -18,7 +18,7 @@ export default function Home() {
                 <span className="bg-pink-200">Front-End Developer </span>
                 striving to build stunning Web creations that people love to use
               </h2>
-              <h3 className='text-lg'>
+              <h3 className='text-lg text-black'>
                 Let&apos;s connect{" "}
                 <span>
                   <a href="https://github.com/angeloilardi" target="_blank">

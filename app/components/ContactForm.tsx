@@ -16,6 +16,7 @@ export default function Form() {
             <form
               action="https://formsubmit.co/2b5a0c554cbe020fae0c799111bac22a"
               method="POST"
+              className="text-black"
             >
               <label className="block">
                 <span className="text-gray-700">Full name</span>
@@ -76,7 +77,7 @@ export default function Form() {
             </form>
             <div className="block"></div>
           </div>
-          <p>
+          <p className="text-black">
             You can also email me{" "}
             <a href="mailto:angeloilardi.dev@gmail.com">
               <i className="fa-regular fa-envelope fa-lg"></i>
