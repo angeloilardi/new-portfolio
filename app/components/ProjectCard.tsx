@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ProjectCard({
   img,
   url,
@@ -12,13 +14,21 @@ export default function ProjectCard({
   gh: string;
 }) {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-8/12 md:max-w-3xl">
-      <a href={url} className="basis-1/2 shrink-1 max-w-sm">
-        <img className="rounded-t-lg min-h-60 object-cover" src={img} alt="" />
-      </a>
+    <div className="max-w-sm bg-white border-4 border-blue-300 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-8/12 md:max-w-3xl shadow-md">
+      <div className="basis-1/2 max-w-sm">
+        <a href={url} className="w-full">
+          <Image
+            className="rounded-t-lg min-h-60 object-cover aspect-[4/3]"
+            src={img}
+            alt=""
+            width={400}
+            height={300}
+          />
+        </a>
+      </div>
       <div className="p-5 flex flex-col basis-1/2 shrink-1 max-w-sm justify-center">
         <a href={url}>
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-blue-300 dark:text-white">
             {name.toUpperCase()}
           </h5>
         </a>
@@ -28,7 +38,7 @@ export default function ProjectCard({
         <div className="mt-auto mb-2">
           <a
             href={url}
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Visit Website
             <svg
@@ -49,7 +59,7 @@ export default function ProjectCard({
         <div className="">
           <a
             href={gh}
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             View repository{" "}
             <i
