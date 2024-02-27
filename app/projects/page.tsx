@@ -46,7 +46,6 @@ async function getProjects() {
 
 export default async function Projects() {
   const projects = await getProjects();
-  console.log(projects);
 
   return (
     <>
