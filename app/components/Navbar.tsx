@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-pink-200 border-b-4 border-b-fuchsia-100"
+      className="bg-pink-200 border-b-4 border-b-fuchsia-100 dark:bg-slate-800"
     >
       {({ open }) => (
         <>
@@ -53,7 +53,7 @@ export default function Navbar() {
                           pathname === item.href
                             ? "bg-blue-500 text-white"
                             : "text-black hover:bg-blue-400 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "rounded-md px-3 py-2 text-sm font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >

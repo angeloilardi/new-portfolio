@@ -1,11 +1,11 @@
 export default function Form() {
   return (
     <div className="mx-auto max-w-xl px-5">
-      <div className="py-12">
-        <h2 className="text-4xl outline-text text-blue-200 mb-6">
+      <div className="py-12 text-gray-700 dark:text-white">
+        <h2 className="text-4xl outline-text text-blue-200 mb-6 dark:text-slate-500 dark:font-bold">
           GET IN TOUCH
         </h2>
-        <p className="text-gray-700">
+        <p className="">
           For any inquiries about my work or if you think I might be a good fit
           for a role you&apos;re hiring for
         </p>
@@ -13,11 +13,11 @@ export default function Form() {
           <form
             action="https://formsubmit.co/2b5a0c554cbe020fae0c799111bac22a"
             method="POST"
-            className="text-black"
+            className="text-black dark:text-white"
           >
             <div className="grid grid-cols-1 gap-6">
               <label className="block">
-                <span className="text-gray-700">Full name</span>
+                <span className="">Full name</span>
                 <input
                   name="name"
                   type="text"
@@ -34,7 +34,7 @@ export default function Form() {
                 />
               </label>
               <label className="block">
-                <span className="text-gray-700">Email address</span>
+                <span className="">Email address</span>
                 <input
                   name="email"
                   type="email"
@@ -51,7 +51,7 @@ export default function Form() {
                 />
               </label>
               <label className="block">
-                <span className="text-gray-700">Your message</span>
+                <span className="">Your message</span>
                 <textarea
                   name="message"
                   className="
@@ -68,7 +68,7 @@ export default function Form() {
               </label>
             </div>
             <button
-              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3"
+              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 dark:bg-black"
               type="submit"
             >
               Send
@@ -76,7 +76,7 @@ export default function Form() {
           </form>
           <div className="block"></div>
         </div>
-        <p className="text-black mt-3">
+        <p className=" mt-3">
           You can also email me{" "}
           <a href="mailto:angeloilardi.dev@gmail.com">
             <i className="fa-regular fa-envelope fa-lg"></i>

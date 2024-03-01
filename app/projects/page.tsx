@@ -1,6 +1,5 @@
-import Navbar from "../components/Navbar";
+
 import ProjectCard from "../components/ProjectCard";
-import projects from "./../utils/projects.json";
 import "./../globals.css";
 
 
@@ -49,7 +48,6 @@ export default async function Projects() {
 
   return (
     <>
-      <div className="bg-blue-200 min-h-screen py-12">
         <h1 className="text-center mb-8 outline-text text-blue-200 text-5xl">
           PROJECTS
         </h1>
@@ -67,7 +65,6 @@ export default async function Projects() {
             );
           })}
         </div>
-      </div>
     </>
   );
 }

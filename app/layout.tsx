@@ -22,7 +22,9 @@ export default function RootLayout({
       <Script src="https://kit.fontawesome.com/76d4d94d08.js" />
       <body className={mulish.className}>
         <Navbar />
-        {children}
+        <div className="min-h-screen bg-blue-200 align-middle dark:bg-slate-800 py-8">
+          {children}
+        </div>
       </body>
     </html>
   );
