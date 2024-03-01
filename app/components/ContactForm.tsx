@@ -1,4 +1,3 @@
-
 export default function Form() {
   return (
     <div className="mx-auto max-w-xl px-5">
@@ -11,12 +10,12 @@ export default function Form() {
           for a role you&apos;re hiring for
         </p>
         <div className="mt-8 max-w-lg">
-          <div className="grid grid-cols-1 gap-6">
-            <form
-              action="https://formsubmit.co/2b5a0c554cbe020fae0c799111bac22a"
-              method="POST"
-              className="text-black"
-            >
+          <form
+            action="https://formsubmit.co/2b5a0c554cbe020fae0c799111bac22a"
+            method="POST"
+            className="text-black"
+          >
+            <div className="grid grid-cols-1 gap-6">
               <label className="block">
                 <span className="text-gray-700">Full name</span>
                 <input
@@ -67,29 +66,26 @@ export default function Form() {
                   rows={3}
                 ></textarea>
               </label>
-              <button
-                className="rounded-full bg-black text-white p-2 mt-3"
-                type="submit"
-              >
-                Send
-              </button>
-            </form>
-            <div className="block"></div>
-          </div>
-          <p className="text-black">
-            You can also email me{" "}
-            <a href="mailto:angeloilardi.dev@gmail.com">
-              <i className="fa-regular fa-envelope fa-lg"></i>
-            </a>{" "}
-            or message me via{" "}
-            <a
-              href="https://www.linkedin.com/in/angelo-ilardi/"
-              target="_blank"
+            </div>
+            <button
+              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3"
+              type="submit"
             >
-              <i className="fa-brands fa-linkedin fa-lg"></i>
-            </a>
-          </p>
+              Send
+            </button>
+          </form>
+          <div className="block"></div>
         </div>
+        <p className="text-black mt-3">
+          You can also email me{" "}
+          <a href="mailto:angeloilardi.dev@gmail.com">
+            <i className="fa-regular fa-envelope fa-lg"></i>
+          </a>{" "}
+          or message me via{" "}
+          <a href="https://www.linkedin.com/in/angelo-ilardi/" target="_blank">
+            <i className="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+        </p>
       </div>
     </div>
   );

@@ -14,13 +14,13 @@ export default function ProjectCard({
   gh: string;
 }) {
   return (
-    <div className="max-w-sm bg-white border-4 border-blue-300 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-8/12 md:max-w-3xl shadow-md">
-      <div className="basis-1/2 max-w-sm">
+    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-10/12 md:max-w-3xl shadow-md">
+      <div className="basis-1/2">
         <a href={url} className="w-full">
           <Image
             className="rounded-t-lg min-h-60 object-cover aspect-[4/3]"
             src={img}
-            alt=""
+            alt={`Preview of ${name}`}
             width={400}
             height={300}
           />

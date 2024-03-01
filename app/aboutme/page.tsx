@@ -6,7 +6,7 @@ import './../globals.css'
 export default function AboutMe() {
   return (
     <>
-      <div className="bg-blue-200 min-h-screen py-12">
+      <div className="bg-blue-200 min-h-screen py-8">
         <div className="flex flex-col-reverse md:flex-row align-middle">
           <div className="presentation basis-1/2 shrink-0 flex-row p-16 text-black">
             <h1 className="outline-text text-blue-200 mb-6 text-4xl">

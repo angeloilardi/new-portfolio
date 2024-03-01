@@ -1,11 +1,11 @@
 
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Mulish } from 'next/font/google'
 import Script from "next/script";
 import Navbar from './components/Navbar';
 import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ['latin'] })
+const mulish = Mulish({ subsets: ['latin'] })
 
 export const metadata = {
   title:"Angelo's Portfolio",
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Script src="https://kit.fontawesome.com/76d4d94d08.js" />
-      <body className={inter.className}>
+      <body className={mulish.className}>
         <Navbar />
         {children}
       </body>
