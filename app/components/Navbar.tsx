@@ -56,7 +56,7 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           pathname === item.href
-                            ? "border border-black"
+                            ? "border border-black dark:border-pink-200"
                             : "hover:tracking-widest font-bold",
                           "rounded-md px-3 py-2 text-sm md:text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
                         )}

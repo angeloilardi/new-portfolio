@@ -28,7 +28,7 @@ export default function ProjectCard({
       </div>
       <div className="p-5 flex flex-col basis-1/2 shrink-1 max-w-sm justify-center">
         <a href={url}>
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-blue-300 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-blue-300 dark:text-pink-200">
             {name.toUpperCase()}
           </h5>
         </a>
@@ -38,7 +38,7 @@ export default function ProjectCard({
         <div className="mt-auto mb-2">
           <a
             href={url}
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-pink-300 dark:hover:bg-pink-400 dark:text-slate-600 dark:focus:ring-blue-800"
           >
             Visit Website
             <svg
@@ -59,12 +59,13 @@ export default function ProjectCard({
         <div className="">
           <a
             href={gh}
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-pink-300 dark:hover:bg-pink-400 dark:text-slate-600 dark:focus:ring-blue-800"
           >
             View repository{" "}
             <i
               className="fa-brands fa-square-github ml-3 fa-xl"
-              style={{ color: "#fcfcfc" }}
+              
+              // style={{ color: "#fcfcfc" }}
             ></i>
           </a>
         </div>

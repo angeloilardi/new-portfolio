@@ -68,7 +68,7 @@ export default function Form() {
               </label>
             </div>
             <button
-              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 dark:bg-black"
+              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 dark:bg-black hover:bg-blue-400"
               type="submit"
             >
               Send

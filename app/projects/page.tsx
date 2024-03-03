@@ -48,7 +48,7 @@ export default async function Projects() {
 
   return (
     <>
-        <h1 className="text-center mb-8 outline-text text-blue-200 text-5xl">
+        <h1 className="text-center mb-8 outline-text text-blue-200 text-5xl dark:text-slate-600">
           PROJECTS
         </h1>
         <div className="sm:flex sm:justify-center sm:flex-wrap sm:flex-col sm:align-middle mx-4">

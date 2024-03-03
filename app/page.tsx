@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
         <div className="flex w-lg sm:pt-16 flex-col-reverse md:flex md:flex-row-reverse items-center justify-around px-12">
-          <div className="align-center px-16 mt-16 text-black dark:text-white">
+          <div className="align-center px-16 mt-16 text-black dark:text-pink-200">
             <h1 className="text-5xl">HEY, I&apos;M ANGELO ILARDI</h1>
             <h2 className="mt-6 text-2xl mb-8">
               I&apos;m a{" "}
