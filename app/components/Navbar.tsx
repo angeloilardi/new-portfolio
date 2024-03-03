@@ -4,6 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import "./../globals.css";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const navigation = [
   { name: "Projects", href: "/projects", current: true },
@@ -24,11 +25,11 @@ export default function Navbar() {
     >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden m">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400  hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-400">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -38,8 +39,12 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
-                  <a className="outline-text text-pink-200 text-4xl" href="/">
+                <div className="flex items-center gap-2 ml-10 md:ml-0">
+                  <Image src="/cat.png" alt="" height={40} width={40} />
+                  <a
+                    className="outline-text text-pink-200 sm:text-3xl text-2xl"
+                    href="/"
+                  >
                     ANGELO ILARDI
                   </a>
                 </div>
@@ -51,9 +56,9 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           pathname === item.href
-                            ? "bg-blue-500 text-white"
-                            : "text-black hover:bg-blue-400 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
+                            ? "border border-black"
+                            : "hover:tracking-widest font-bold",
+                          "rounded-md px-3 py-2 text-sm md:text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -82,8 +87,8 @@ export default function Navbar() {
                     href={item.href}
                     className={classNames(
                       pathname === item.href
-                        ? "bg-blue-500 text-white"
-                        : "text-black hover:bg-blue-400 hover:text-white",
+                        ? "border border-black"
+                        : "text-black hover:pl-5",
                       "block rounded-md px-3 py-2 text-base font-medium"
                     )}
                     aria-current={item.current ? "page" : undefined}
