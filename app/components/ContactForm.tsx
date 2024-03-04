@@ -2,7 +2,7 @@ export default function Form() {
   return (
     <div className="mx-auto max-w-xl px-5">
       <div className="py-12 text-gray-700 dark:text-pink-200">
-        <h2 className="text-4xl outline-text text-blue-200 mb-6 dark:text-slate-500 dark:font-bold">
+        <h2 className="text-4xl outline-text text-blue-200 mb-6 dark:text-slate-400 dark:font-bold">
           GET IN TOUCH
         </h2>
         <p className="">
@@ -29,7 +29,7 @@ export default function Form() {
                       border-gray-300
                       shadow-sm
                       focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
-                    dark:bg-slate-600"
+                    dark:bg-slate-600 dark:border-pink-200"
                   placeholder=""
                 />
               </label>
@@ -46,7 +46,7 @@ export default function Form() {
                       border-gray-300
                       shadow-sm
                       focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
-                    dark:bg-slate-600"
+                    dark:bg-slate-600 dark:border-pink-200"
                   placeholder=""
                 />
               </label>
@@ -62,13 +62,13 @@ export default function Form() {
                       border-gray-300
                       shadow-sm
                       focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
-                    dark:bg-slate-600"
+                    dark:bg-slate-600 dark:border-pink-200"
                   rows={3}
                 ></textarea>
               </label>
             </div>
             <button
-              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 hover:bg-blue-400 dark:bg-slate-600"
+              className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 hover:bg-blue-400 dark:bg-slate-600 dark:hover:bg-slate-700"
               type="submit"
             >
               Send
