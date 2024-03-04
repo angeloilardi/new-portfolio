@@ -9,7 +9,7 @@ export default function Home() {
             <h2 className="mt-6 text-2xl mb-8">
               I&apos;m a{" "}
               <span className="bg-pink-200 dark:text-slate-600">
-                Front-End Developer{" "}
+                Frontend Developer{" "}
               </span>
               striving to build stunning Web creations that people love to use
             </h2>
