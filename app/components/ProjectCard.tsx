@@ -18,7 +18,7 @@ export default function ProjectCard({
       <div className="basis-1/2">
         <a href={url} className="w-full">
           <Image
-            className="rounded-t-lg min-h-60 object-cover aspect-[4/3]"
+            className="rounded-lg min-h-60 object-cover aspect-[4/3]"
             src={img}
             alt={`Preview of ${name}`}
             width={400}
