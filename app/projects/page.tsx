@@ -18,6 +18,7 @@ interface Project {
 
 async function getProjects() {
   const response = await fetch(process.env.API_ENDPOINT!, {
+    next: { revalidate: 10 },
     method: "POST",
     headers: {
       "Content-Type": "application/json",
