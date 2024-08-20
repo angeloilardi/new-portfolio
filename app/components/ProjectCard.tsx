@@ -14,11 +14,11 @@ export default function ProjectCard({
   gh: string;
 }) {
   return (
-    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-10/12 md:max-w-3xl shadow-md">
+    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-10/12 md:max-w-3xl shadow-md hover:border-gray-900">
       <div className="basis-1/2">
-        <a href={url} className="w-full">
+        <a href={url} className="w-full" target="_blank">
           <Image
-            className="rounded-lg min-h-60 object-cover aspect-[4/3]"
+            className="rounded-lg min-h-60 object-contain aspect-[16/9] hover:opacity-25"
             src={img}
             alt={`Preview of ${name}`}
             width={400}
@@ -38,6 +38,7 @@ export default function ProjectCard({
         <div className="mt-auto mb-2">
           <a
             href={url}
+            target="_blank"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-pink-300 dark:hover:bg-pink-400 dark:text-slate-600 dark:focus:ring-blue-800"
           >
             Visit Website
@@ -59,12 +60,13 @@ export default function ProjectCard({
         <div className="">
           <a
             href={gh}
+            target="_blank"
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-pink-300 dark:hover:bg-pink-400 dark:text-slate-600 dark:focus:ring-blue-800"
           >
             View repository{" "}
             <i
               className="fa-brands fa-square-github ml-3 fa-xl"
-              
+
               // style={{ color: "#fcfcfc" }}
             ></i>
           </a>
