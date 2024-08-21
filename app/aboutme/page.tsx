@@ -12,7 +12,7 @@ export default function AboutMe() {
             ABOUT ME
           </h1>
           <p className="mb-3">
-            Hey, I&apos;m Angelo Ilardi, a Front-End Developer from London (UK).
+            Hey, I&apos;m Angelo Ilardi, a Frontend Developer from London (UK).
           </p>
           <p className="mb-3">
             My biggest drive is my passion for creating eye-catching designs

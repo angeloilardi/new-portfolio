@@ -14,15 +14,15 @@ export default function ProjectCard({
   gh: string;
 }) {
   return (
-    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-10/12 md:max-w-3xl shadow-md hover:border-gray-900">
+    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:h-max md:flex-row-reverse  md:min-h-fit md:w-10/12 md:max-w-3xl hover:shadow-md dark:hover:border-gray-900 hover:border-pink-300 overflow-auto">
       <div className="basis-1/2">
-        <a href={url} className="w-full" target="_blank">
+        <a href={url} target="_blank" className="h-full block">
           <Image
-            className="rounded-lg min-h-60 object-contain aspect-[16/9] hover:opacity-25"
+            className="hover:opacity-60 aspect-auto object-fill h-full"
             src={img}
             alt={`Preview of ${name}`}
             width={400}
-            height={300}
+            height={350}
           />
         </a>
       </div>
