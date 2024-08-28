@@ -57,8 +57,8 @@ export default function Navbar() {
                         className={classNames(
                           pathname === item.href
                             ? "border border-black dark:border-pink-200"
-                            : "hover:tracking-widest font-bold",
-                          "rounded-md px-3 py-2 text-sm md:text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
+                            : "hover:focus:tracking-widest font-bold",
+                          "rounded-md px-3 py-2 text-sm md:text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800 focus:ring-0"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >

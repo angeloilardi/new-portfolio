@@ -27,7 +27,7 @@ export default function ProjectCard({
         </a>
       </div>
       <div className="p-5 flex flex-col basis-1/2 shrink-1 max-w-sm justify-center">
-        <a href={url}>
+        <a href={url} target="_blank">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-blue-300 dark:text-pink-200">
             {name.toUpperCase()}
           </h5>
