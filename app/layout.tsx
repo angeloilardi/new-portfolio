@@ -24,6 +24,7 @@ export default function RootLayout({
         <Navbar />
         <div className="min-h-screen bg-blue-200 align-middle dark:bg-slate-800 py-8 dark:text-pink-200">
           {children}
+          <Analytics />
         </div>
       </body>
     </html>
