@@ -4,7 +4,7 @@
 
 @layer components {
 .bg-text {
-  @apply text-[120px] font-bold text-blue-100 absolute top-0 left-0 z-0 opacity-30 overflow-hidden whitespace-nowrap
+  @apply text-[120px] font-bold text-blue-100 absolute top-0 left-0 z-0 opacity-30 dark:opacity-10 overflow-hidden whitespace-nowrap
 }
 }
 
