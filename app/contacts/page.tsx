@@ -6,7 +6,7 @@ export default function Contacts() {
       <div className="mx-auto px-5">
         <div className="py-12 w-full text-gray-700 dark:text-pink-200 md:flex md:gap-6">
           <div>
-            <div className="relative">
+            <div className="relative overflow-hidden">
               <h2 className="text-4xl outline-text text-blue-200 mb-6 dark:text-slate-400 dark:font-bold py-16">
                 GET IN TOUCH
               </h2>
