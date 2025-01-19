@@ -7,10 +7,13 @@ export default function AboutMe() {
   return (
     <>
       <div className="flex flex-col-reverse md:flex-row align-middle">
-        <div className="presentation basis-1/2 shrink-0 flex-row p-16 text-black dark:text-pink-200">
-          <h1 className="outline-text text-blue-200 mb-6 text-4xl dark:text-slate-400 dark:font-bold">
-            ABOUT ME
-          </h1>
+        <div className="presentation md:basis-2/3 shrink-0 flex-row p-16 text-black dark:text-pink-200">
+          <div className="relative">
+            <h1 className="outline-text text-blue-200 py-16 text-4xl dark:text-slate-400 dark:font-bold">
+              ABOUT ME
+            </h1>
+            <div className="bg-text">ABOUT ME</div>
+          </div>
           <p className="mb-3">
             Hey, I&apos;m Angelo Ilardi, a Frontend Developer from London (UK).
           </p>
@@ -43,7 +46,7 @@ export default function AboutMe() {
             team.
           </p>
         </div>
-        <div className="profile-pic basis-1/2 flex align-middle">
+        <div className="profile-pic md:basis-1/3 flex align-middle p-8">
           <Image
             src="/profile.jpeg"
             width={300}

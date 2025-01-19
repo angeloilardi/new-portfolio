@@ -42,7 +42,7 @@ export default function Navbar() {
                 <div className="flex items-center gap-2 ml-10 md:ml-0">
                   <Image src="/cat.png" alt="" height={40} width={40} />
                   <a
-                    className="outline-text text-pink-200 sm:text-3xl text-2xl"
+                    className="outline-text text-pink-200 sm:text-3xl text-2xl hover:text-black"
                     href="/"
                   >
                     ANGELO ILARDI

@@ -21,8 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <Script src="https://kit.fontawesome.com/76d4d94d08.js" />
       <body className={mulish.className}>
-        <Navbar />
-        <div className="min-h-screen bg-blue-200 align-middle dark:bg-slate-800 py-8 dark:text-pink-200">
+        <div className="min-h-screen bg-blue-200 align-middle dark:bg-slate-800 dark:text-pink-200">
+          <Navbar />
           {children}
           <Analytics />
         </div>

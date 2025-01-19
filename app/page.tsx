@@ -3,9 +3,9 @@
 export default function Home() {
   return (
     <>
-        <div className="flex sm:pt-16 flex-col-reverse md:flex md:flex-row-reverse items-center justify-around px-12">
-          <div className="align-center px-8 mt-16 text-black dark:text-pink-200">
-            <h1 className="text-5xl">HEY, I&apos;M ANGELO ILARDI</h1>
+        <div className="flex pb-8 flex-col-reverse md:flex md:flex-row-reverse items-center justify-around px-12 sm:pt-16">
+          <div className="align-center px-8 mt-16 text-black dark:text-pink-200 max-w-xl text-center">
+            <h1 className="text-5xl text-sha">HEY, I&apos;M ANGELO ILARDI</h1>
             <h2 className="mt-6 text-2xl mb-8">
               I&apos;m a{" "}
               <span className="bg-pink-200 dark:text-slate-600">
