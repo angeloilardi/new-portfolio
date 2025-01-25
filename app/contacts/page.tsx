@@ -6,14 +6,10 @@ export default function Contacts() {
       <div className="mx-auto px-5">
         <div className="py-12 w-full text-gray-700 dark:text-pink-200 md:flex md:gap-6">
           <div>
-            <div className="relative overflow-hidden">
-              <h2 className="text-4xl outline-text text-blue-200 mb-6 dark:text-slate-400 dark:font-bold py-16">
+             <h2 className="text-4xl outline-text text-blue-200 mb-6 dark:text-slate-400 dark:font-bold py-16">
                 GET IN TOUCH
               </h2>
-              <div className="bg-text">
-                GET IN TOUCH
-              </div>
-            </div>
+          
             <p className="">
               For any inquiries about my work or if you think I might be a good
               fit for a role you&apos;re hiring for

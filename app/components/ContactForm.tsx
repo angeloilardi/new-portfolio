@@ -76,11 +76,7 @@ export default function Form() {
           className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 dark:bg-slate-600 dark:hover:bg-slate-700 group"
           type="submit"
         >
-          Send{" "}
-          <FontAwesomeIcon
-            icon={faArrowRight}
-            className="h-4 w-4 group-hover:inline hidden"
-          />
+          Send
         </button>
       </form>
       <div className="block"></div>

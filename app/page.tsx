@@ -40,7 +40,8 @@ export default function Home() {
               id="fish"
               src="https://img.icons8.com/ios-glyphs/30/fish.png"
               alt="fish swimming inside the laptop screen"
-              className="absolute top-2/4 right-1/4 rotate-12 w-4 h-4 max-w-full"
+              className="absolute top-2/4 right-1/4 rotate-12 w-4 h-4 max-w-full cursor-pointer"
+              onClick={() => console.log('object')}
             />
           </div>
         </div>
