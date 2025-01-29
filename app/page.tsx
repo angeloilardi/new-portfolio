@@ -4,18 +4,18 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
 export default function Home() {
-  const el = useRef(null);
-  useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ["Hey, I'm Angelo Ilardi", "I'm a Frontend Developer"],
-      typeSpeed: 50,
-    });
+  // const el = useRef(null);
+  // useEffect(() => {
+  //   const typed = new Typed(el.current, {
+  //     strings: ["Hey, I'm Angelo Ilardi", "I'm a Frontend Developer"],
+  //     typeSpeed: 50,
+  //   });
 
-    return () => {
-      // Destroy Typed instance during cleanup to stop animation
-      typed.destroy();
-    };
-  }, []);
+  //   return () => {
+  //     // Destroy Typed instance during cleanup to stop animation
+  //     typed.destroy();
+  //   };
+  // }, []);
   return (
     <>
       <div className="flex pb-8 flex-col-reverse md:flex md:flex-row-reverse items-center justify-around px-12 sm:pt-16">
