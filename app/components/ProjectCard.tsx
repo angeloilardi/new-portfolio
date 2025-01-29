@@ -14,7 +14,7 @@ export default function ProjectCard({
   gh: string;
 }) {
   return (
-    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:flex-row-reverse  md:h-[250px] md:w-10/12 md:max-w-2xl hover:shadow-md dark:hover:border-gray-900 hover:border-pink-300 overflow-auto">
+    <div className="max-w-sm bg-white border-4 border-pink-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 mb-6 mx-auto md:flex md:flex-row-reverse  md:h-[250px] md:w-10/12 md:max-w-2xl hover:shadow-md dark:hover:border-gray-900 hover:border-pink-300 overflow-auto scale-50 opacity-30 intersect:scale-100 intersect:opacity-100 transition duration-700">
       <div className="basis-1/2">
         <a href={url} target="_blank" className="h-full block">
           <Image

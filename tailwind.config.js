@@ -16,7 +16,7 @@ module.exports = {
         '60': '60%'
       }
     },
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [require('@tailwindcss/forms'), require('tailwindcss-animated'), require('tailwindcss-intersect')],
   },
-  plugins: [require('@tailwindcss/forms'), require('@headlessui/tailwindcss')],
+  plugins: [require('@tailwindcss/forms'), require('@headlessui/tailwindcss'), require('tailwindcss-animated'), require('tailwindcss-intersect')],
 }
