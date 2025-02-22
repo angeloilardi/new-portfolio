@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Script src="https://kit.fontawesome.com/76d4d94d08.js" />
-      <body className={mulish.className}>
+      <body className={`${mulish.className}`}>
         <div className="min-h-screen bg-blue-200 align-middle dark:bg-slate-800 dark:text-pink-200">
           <Navbar />
           {children}

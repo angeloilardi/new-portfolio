@@ -43,7 +43,7 @@ export default function AboutMe() {
             team.
           </p>
         </div>
-        <div className="profile-pic md:basis-1/3 flex align-middle p-8">
+        <div className="profile-pic md:basis-1/3 flex align-middle p-8 rotate-y">
           <Image
             src="/profile.jpeg"
             width={300}
