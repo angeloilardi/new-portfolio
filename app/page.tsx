@@ -20,7 +20,6 @@ export default function Home() {
   return (
     <>
       <div className="flex w-full flex-col-reverse  md:flex-row-reverse items-center justify-center bg-[url('/wave-haikei.svg')] bg-no-repeat  bg-cover h-[calc(100vh-64px)] gap-6">
-        <h1 className="mix-blend-difference">Angelo ilardi</h1>
         <div className="flex w-[300px] sm:w-[400px] md:w-[600px] relative">
           <img
             src="/9306518_45999.svg"
