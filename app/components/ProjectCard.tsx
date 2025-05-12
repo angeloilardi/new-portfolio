@@ -18,7 +18,7 @@ export default function ProjectCard({
       <div className="basis-1/2">
         <a href={url} target="_blank" className="h-full block">
           <Image
-            className="hover:opacity-60 aspect-auto object-cover h-full"
+            className="hover:opacity-80 aspect-auto hover:object-cover object-contain h-full"
             src={img}
             alt={`Preview of ${name}`}
             width={400}
