@@ -57,7 +57,7 @@ export default function Navbar() {
                         className={classNames(
                           pathname === item.href
                             ? "border border-black dark:border-pink-200"
-                            : "font-bold",
+                            : "font-bold hover:border hover:border-slate-400",
                           "rounded-md px-3 py-2 text-sm md:text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800 focus:ring-0"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -79,7 +79,7 @@ export default function Navbar() {
             leaveTo="transform scale-95 opacity-0"
           >
             <Disclosure.Panel className="sm:hidden">
-              <div className="space-y-1 px-2 pb-3 pt-2">
+              <div className="space-y-1 px-2 pb-3 pt-2 flex flex-col">
                 {navigation.map((item) => (
                   <Disclosure.Button
                     key={item.name}
@@ -87,9 +87,9 @@ export default function Navbar() {
                     href={item.href}
                     className={classNames(
                       pathname === item.href
-                        ? "border border-pink-200"
-                        : "text-black hover:pl-8",
-                      "block rounded-md px-3 py-2 text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
+                        ? "border border-black"
+                        : "text-black hover:border hover:border-slate-400",
+                      "rounded-md px-3 py-2 max-w-max text-base font-medium dark:text-pink-200 dark:hover:bg-pink-200 dark:hover:text-slate-800"
                     )}
                     aria-current={item.current ? "page" : undefined}
                   >
