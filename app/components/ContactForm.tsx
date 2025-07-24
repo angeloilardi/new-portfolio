@@ -1,6 +1,3 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export default function Form() {
   return (
     <div className="mt-8 basis-1/2">
@@ -25,7 +22,8 @@ export default function Form() {
                       shadow-sm
                       focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
                     dark:bg-slate-600 dark:border-pink-200"
-              placeholder=" "
+              placeholder=""
+              minLength={1}
               required
             />
             <p className="peer-[&:not(:placeholder-shown):not(:focus):invalid]:block hidden italic text-xs mt-1">
@@ -37,7 +35,7 @@ export default function Form() {
             <input
               name="email"
               type="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
               className="
                       mt-1
                       block
@@ -50,7 +48,7 @@ export default function Form() {
               placeholder=" "
               required
             />
-            <p className="peer-[&:not(:placeholder-shown):not(:focus):invalid]:block hidden italic text-xs mt-1">
+            <p className="peer-[&:not(:placeholder-shown):not(:focus):invalid]:block hidden italic text-xs mt-1 text-red-600">
               Please enter a valid email address
             </p>
           </label>
@@ -66,14 +64,19 @@ export default function Form() {
                       border-gray-300
                       shadow-sm
                       focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
-                    dark:bg-slate-600 dark:border-pink-200"
+                    dark:bg-slate-600 dark:border-pink-200 peer"
               rows={3}
               required
-            ></textarea>
+              minLength={50}
+              placeholder=""
+            />
+            <p className="peer-[&:not(:placeholder-shown):not(:focus):invalid]:block hidden italic text-xs mt-1 text-red-600">
+              50 characters minimum
+            </p>
           </label>
         </div>
         <button
-          className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 dark:bg-slate-600 dark:hover:bg-slate-700 group"
+          className="rounded-full bg-blue-500 text-white px-3 py-2 mt-3 dark:bg-slate-600 dark:hover:bg-slate-700 group-invalid:pointer-events-none group-invalid:bg-blue-300"
           type="submit"
         >
           Send
